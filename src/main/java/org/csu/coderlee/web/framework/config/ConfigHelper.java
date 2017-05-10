@@ -15,19 +15,27 @@ public class ConfigHelper {
     /**
      * 获取JDBC驱动
      */
-    public static String getJdbcDriver(){
+    public static String getJdbcDriver() {
         return PropsUtil.getString(CONFIG_PROPS, ConfigConstant.JDBC_DRIVER);
     }
 
-    public static String getJdbcUrl(){
+    public static String getJdbcUrl() {
         return PropsUtil.getString(CONFIG_PROPS, ConfigConstant.JDBC_URL);
     }
 
-    public static String getJdbcUserName(){
+    public static String getJdbcUserName() {
         return PropsUtil.getString(CONFIG_PROPS, ConfigConstant.JDBC_USERNAME);
     }
 
-    public static String getJdbcPassWord(){
+    public static String getJdbcPassWord() {
         return PropsUtil.getString(CONFIG_PROPS, ConfigConstant.JDBC_PASSWORD);
+    }
+
+    public static String getAppBasePackage() {
+        return PropsUtil.getString(CONFIG_PROPS, ConfigConstant.AppBasePackage);
+    }
+
+    public static String getAppJspPath() {
+        return PropsUtil.getString(CONFIG_PROPS, ConfigConstant.APP_JSP_PATH);
     }
 }

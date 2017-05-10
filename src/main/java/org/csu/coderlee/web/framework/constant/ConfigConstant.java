@@ -18,4 +18,8 @@ public interface ConfigConstant {
 
     String JDBC_PASSWORD = "web.framework.jdbc.password";
 
+    String AppBasePackage = "org.csu.coderlee.web.framework";
+
+    String APP_JSP_PATH = "/jsp/";
+
 }
