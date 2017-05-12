@@ -20,3 +20,8 @@
 * ClassHelper的getBeanClassSet()获取所有被框架管理的bean类
 * 循环调用ReflectionUtil类的newInstance()来实例化对象
 * 最后将每次创建的对象放在一个静态的Map中，方便随时获取该map，找到对应的value
+
+
+
+## 版本迭代
+20170512 将完成的Ioc容器版本，抽离成子模块
