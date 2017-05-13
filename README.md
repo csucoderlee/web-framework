@@ -25,3 +25,8 @@
 
 ## 版本迭代
 20170512 将完成的Ioc容器版本，抽离成子模块
+
+## 框架启动流程
+1. tomcat启动时会加载@WebServlet注解，调用DispatcherServlet中service()方法，先加载controller注解，再加载controller当中的@Action注解
+2. 每次请求过来都会根据相应的请求路径调用相关的@action注解的方法
+
