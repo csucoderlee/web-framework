@@ -46,7 +46,7 @@ public final class ClassUtil {
      * 加载类（默认将初始化类）
      */
     public static Class<?> loadClass(String className) {
-        return loadClass(className, true);
+        return loadClass(className, false);
     }
 
     /**

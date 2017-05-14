@@ -28,7 +28,7 @@ import java.util.Map;
 /**
  * Created by lixiang on 2017 05 10 下午1:45.
  */
-@WebServlet(urlPatterns = "/*", loadOnStartup = 0)
+//@WebServlet(urlPatterns = "/*", loadOnStartup = 0)
 public class DispatcherServlet extends HttpServlet{
 
     @Override
