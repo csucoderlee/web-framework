@@ -50,7 +50,7 @@ public final class ClassUtil {
     }
 
     /**
-     * 获取指定包名下的所有类
+     * 获取指定包名下的所有类, 根据包名并将其转换为文件路径
      */
     public static Set<Class<?>> getClassSet(String packageName) {
         Set<Class<?>> classSet = new HashSet<Class<?>>();
